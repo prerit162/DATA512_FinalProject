@@ -16,21 +16,31 @@ The project was divided into two halves where the first part of the project was 
 The second phase of the project is the extension plan which focuses on the  impact of these fires on the health and safety of its residents mainly on the following aspects :
 
 ●	Respiratory Health Issues : Exposure to wildfire smoke can exacerbate respiratory conditions such as asthma, bronchitis, and chronic obstructive pulmonary disease (COPD)
+
 ●	Cardiovascular Effects : Fine particles in smoke can contribute to cardiovascular problems, potentially increasing the risk of heart attacks and other cardiovascular issues.
+
 ●	Visibility Reduction : Thick smoke can reduce visibility, posing hazards for drivers and increasing the risk of accidents on roads.
 
 The analysis would revolve around answering the following questions around the impact of smoke fires on residents in Derby, Kansas - 
+
 # Mortality Rates  for Respiratory Diseases, Cardiovascular Diseases and Road Accidents  
+
 ●	Possible correlations between increase in smoke fires and mortality rates because of the diseases
+
 ●	Which respiratory diseases are shown to have a significant increase  in mortality rates?
+
 ●	Observe trends in road accidents at the time of smoke fires due to low visibility.
+
 # Demographic Disparity 
+
 ●	Identifying age groups or ethnicities most vulnerable or impacted by health conditions. 
+
 ●	Observe change in life expectancy across different demographics.
 
 # Recommendations
 
 The results provide insights into how smoke fires affect various aspects, including respiratory conditions, cardiovascular diseases, and reduced visibility leading to road accidents.
+
 ●	The county should implement necessary measures to address the rising mortality rates related to respiratory conditions among females especially for  Chronic obstructive pulmonary disease and Chronic respiratory diseases. This can be done through the following steps  : 
 
 ○	Launch targeted health education campaigns to raise awareness about the risks of respiratory conditions, emphasizing the importance of early detection, symptom recognition, and seeking medical attention.
