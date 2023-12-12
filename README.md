@@ -102,16 +102,19 @@ Data : This folder contains input data files and intermediate data files created
 
 Input Data Files -
 
+USGS_Wildland_Fire_Combined_Dataset.json and USGS_Wildland_Fire_Merged_Dataset.json - Use the following [link](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81) for downloading the GeoJSON Files.zip folder and store these two jsons into the Data Folder
+
 1980_2014_percentage_change_diseases.CSV 
 
 kansas_disease_mortality.CSV
 
-There are other input data files which were beyond the size of a file that can be uploaded. They can be downloaded from the following links for reproducing the analysis :
+There are other input data files which were greater than the size that can be uploaded. They can be downloaded from the following links and should be kept in the Data folder of the repository for reproducing the analysis :
 
 [cardio both](https://drive.google.com/drive/folders/1BTdgQO9_5zHPr2ZgtVMGKHwdF7iP-oqL?usp=sharing)
-[accident both](https://drive.google.com/drive/folders/1XaMVcXKG6R_sH320fNXizFog5lxV9F4c?usp=sharing)
-[Life Expectancy](https://drive.google.com/drive/folders/1I7MgU4m1tAxUkEePBA7y400QbwLf_E-M?usp=sharing)
 
+[accident both](https://drive.google.com/drive/folders/1XaMVcXKG6R_sH320fNXizFog5lxV9F4c?usp=sharing)
+
+[Life Expectancy](https://drive.google.com/drive/folders/1I7MgU4m1tAxUkEePBA7y400QbwLf_E-M?usp=sharing)
 
 
 Intermediate Data Files - 
