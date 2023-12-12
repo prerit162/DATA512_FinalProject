@@ -106,7 +106,13 @@ Input Data Files -
 
 kansas_disease_mortality.CSV
 
-There are other input data files which were beyond the size of a file that can be uploaded.
+There are other input data files which were beyond the size of a file that can be uploaded. They can be downloaded from the following links for reproducing the analysis :
+
+[cardio both](https://drive.google.com/drive/folders/1BTdgQO9_5zHPr2ZgtVMGKHwdF7iP-oqL?usp=sharing)
+[accident both](https://drive.google.com/drive/folders/1XaMVcXKG6R_sH320fNXizFog5lxV9F4c?usp=sharing)
+[Life Expectancy](https://drive.google.com/drive/folders/1I7MgU4m1tAxUkEePBA7y400QbwLf_E-M?usp=sharing)
+
+
 
 Intermediate Data Files - 
 
@@ -215,6 +221,8 @@ The following steps need to followed to run this code seamlessly :
 &emsp; Download the jsons - USGS_Wildland_Fire_Combined_Dataset.json and USGS_Wildland_Fire_Merged_Dataset.json from  the following [link](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81) by downloading the GeoJSON Files.zip folder and store these two jsons into the Data Folder<br>
 
 &emsp; Run Data_Extraction_Analysis.ipynb to generate all Visualizations and output csv file stored in Data Folder<br>
+
+&emsp; Download the input data files required for the second phase of the project which is the extension plan by downloading the folders from the links mentioned in the data section above and store these folders in the Data Folder of the repository<br>
 
 &emsp; Run Project_Extension.ipynb to view all the results from the second phase of project which focuses on the impact of smoke fires on public health and safety. <br>
 
