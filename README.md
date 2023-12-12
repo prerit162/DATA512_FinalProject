@@ -1,5 +1,3 @@
-# DATA512 Final Project
-
 # Impact Analysis of Smoke Fires on Public Health and Safety
 
 
