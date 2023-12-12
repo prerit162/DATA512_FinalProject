@@ -7,7 +7,7 @@ The number of wildfires has been on the rise over the last few years and can hav
 
 # Aim and Research Questions 
 
-The goal of this submission of the project was to analyze the impact of wildfire on a specific city in the US. The end goal is to be able to inform policy makers, city managers, city councils, or other civic institutions, to make an informed plan for how they could or whether they should make plans to mitigate future impacts from wildfires.
+The goal of this submission of the project was to analyze the impact of wildfire on Derby, Kansas. The end goal is to be able to inform policy makers, city managers, city councils, or other civic institutions, to make an informed plan for how they could or whether they should make plans to mitigate future impacts from wildfires.
 
 The project was divided into two halves where the first part of the project was focused on the smoke estimate calculation for Derby, Kansas and the second part was extending that analysis to see the impact of fires on Public Health and Safety. In the first part of the project, various techniques were explored such as Linear Regression, ARMA (Autoregressive Moving Average), ARIMA (Autoregressive Integrated Moving Average) models but ended up using SARIMA(Seasonal Autoregressive Integrated Moving Average (SARIMA)) for my forecasting model. This is because SARIMA explicitly incorporates seasonality into the model, which makes it a great fit for the time series data available to us. This helps in utilizing the recurring patterns at regular intervals to make more robust predictions. Also, SARIMA has a more flexible framework which can tune autoregressive and moving average components which allows the model to capture nonlinear patterns present in time series data.
 
