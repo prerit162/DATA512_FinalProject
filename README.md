@@ -100,6 +100,25 @@ The results provide insights into how smoke fires affect various aspects, includ
 # Description
 Data : This folder contains input data files and intermediate data files created. 
 
+Input Data Files -
+
+1980_2014_percentage_change_diseases.CSV 
+
+kansas_disease_mortality.CSV
+
+There are other input data files which were beyond the size of a file that can be uploaded.
+
+Intermediate Data Files - 
+
+Smoke_Estimate_Annual.csv - Smoke Estimate Data Aggregated for every year
+
+aqi_yoy.csv - AQI calculated year over year
+
+aqi_particulate.csv
+
+aqi_gaseous.csv
+
+
 Output : This folder contains several visualizations from the first and second phase of the project like Smoke Estimates and AQI data aggregated over years and mortality rates for different diseases respectively
 
 Report: This folder contains reports and presentations from the different phases of the project
