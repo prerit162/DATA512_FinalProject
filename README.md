@@ -116,7 +116,7 @@ CardioVascular Mortality Rates - [cardio both](https://drive.google.com/drive/fo
 Road Accident Mortality Rates - [accident both](https://drive.google.com/drive/folders/1XaMVcXKG6R_sH320fNXizFog5lxV9F4c?usp=sharing)
 
 
-Life Expentancy - [Life Expectancy](https://drive.google.com/drive/folders/1I7MgU4m1tAxUkEePBA7y400QbwLf_E-M?usp=sharing)
+Life Expectancy - [Life Expectancy](https://drive.google.com/drive/folders/1I7MgU4m1tAxUkEePBA7y400QbwLf_E-M?usp=sharing)
 
 
 Intermediate Data Files - 
