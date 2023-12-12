@@ -74,6 +74,8 @@ The results provide insights into how smoke fires affect various aspects, includ
 &nbsp;&nbsp;&nbsp;├── aqi_yoy.csv<br>
 &nbsp;&nbsp;&nbsp;├── aqi_gaseous.csv<br>
 &nbsp;&nbsp;&nbsp;├── aqi_particulate.csv<br>
+&nbsp;&nbsp;&nbsp;├── 1980_2014_percentage_change_diseases.CSV<br>
+&nbsp;&nbsp;&nbsp;├── kansas_disease_mortality.CSV<br>
 ├── <b>Code/</b><br>
 &nbsp;&nbsp;&nbsp;├── Data_Extraction_Analysis.ipynb<br>
 &nbsp;&nbsp;&nbsp;├── Project_Extension.ipynb<br>
@@ -97,6 +99,14 @@ The results provide insights into how smoke fires affect various aspects, includ
 &nbsp;&nbsp;&nbsp;├── extension3_plot.png<br>
 &nbsp;&nbsp;&nbsp;├── extension3_test.png<br>
 
+# Description
+Data : This folder contains input data files and intermediate data files created. 
+Output : This folder contains several visualizations from the first and second phase of the project like Smoke Estimates and AQI data aggregated over years and mortality rates for different diseases respectively
+Report: This folder contains reports and presentations from the different phases of the project
+Code : This folder contains the two main code files in the form of Jupyter notebook and supporting code which was used for data acquisition.
+LICENSE : A file that contains an MIT LICENSE
+README.md : A file that contains important information about the project and steps that makes the analysis reproducible
+
 # Prerequisites
 Before using this code, ensure you have the following prerequisites installed:
 
@@ -110,9 +120,56 @@ Before using this code, ensure you have the following prerequisites installed:
 
 USGS_Wildland_Fire_Combined_Dataset.json: This contains the Combined wildland fire datasets for the United States and certain territories [Link](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81) 
 
+The USGS data contains the combined wild fire datasets for the United States and certain territories. The data has been collected by the US Geological Survey and is well documented. The data is available in a few formats and the analysis has been conducted using the GeoJSON format.
+
 US City assigned for individual analysis -  [Google spreadsheet](https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit)
 
 The city under consideration for my analysis is Derby, Kansas with coordinates (37.552407, -97.261492)
+
+[Chronic Respiratory Disease Mortality Rates by County](https://ghdx.healthdata.org/record/ihme-data/united-states-chronic-respiratory-disease-mortality-rates-county-1980-2014)
+
+The data contains Mortality rates for different counties in Kansas with their FIPS between the time period 1980 - 2014.  Mortality rates for different counties in Kansas where mortality rate is deaths per 100,000 population.
+
+ FIPS - The Federal Information Processing Standards (FIPS) code, a unique identifier for states and counties in the United States
+ 
+Data is available for the following respiratory conditions -
+
+●	Chronic respiratory diseases
+
+●	Chronic obstructive pulmonary 
+
+●	Pneumoconiosis
+
+●	Silicosis
+
+●	Asbestosis
+
+●	Coal workers pneumoconiosis
+
+●	Other pneumoconiosis
+
+●	Asthma
+
+●	Interstitial lung disease
+
+●	Other chronic respiratory 
+
+
+[Mortality Rates by Causes of Death and Life Expectancy by County, Race, and Ethnicity](https://ghdx.healthdata.org/record/ihme-data/united-states-causes-death-life-expectancy-by-county-race-ethnicity-2000-2019)
+
+ 
+This data source helps address the first question which focuses on finding a correlation between smoke fires and overall mortality rates due to respiratory conditions. The analysis would further review if there are certain respiratory diseases which have seen a major increase as compared to others and how their correlation is with increase in smoke fires.This data contains a detailed view of the mortality rates due to respiratory conditions, cardiovascular health and road accidents with columns such as Location, FIPS, Race, Sex, Age group, Cause of death between the time period 2000-2019. The estimates are given in the following three columns :  
+
+Val - Estimate for that specific county
+
+Lower - 2.5% percentile estimate
+
+Upper - 97.5% percentile estimate 
+
+The data also contains life expectancy by different demographic to validate the change in mortality rates 
+
+This data source will help find patterns across different demographics to identify highly prone risk groups who are being affected the most. The analysis would initially be done at a univariate level for each demographic data such as race, sex and age.
+
 
 # Licenses and Reference Code
 
@@ -136,6 +193,8 @@ The following steps need to followed to run this code seamlessly :
 &emsp; Download the jsons - USGS_Wildland_Fire_Combined_Dataset.json and USGS_Wildland_Fire_Merged_Dataset.json from  the following [link](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81) by downloading the GeoJSON Files.zip folder and store these two jsons into the Data Folder<br>
 
 &emsp; Run Data_Extraction_Analysis.ipynb to generate all Visualizations and output csv file stored in Data Folder<br>
+
+&emsp; Run Project_Extension.ipynb to view all the results from the second phase of project which focuses on the impact of smoke fires on public health and safety. <br>
 
 
 # Considerations for Analysis and Reproducibility
@@ -178,6 +237,14 @@ Test Forecast : Used the Trained Model to make predictions for the 2024 - 2049 p
 Test Forecast with CI: Created a plot with Confidence Intervals for the prediction on 2024 - 2049 period
 
 ![image](./Output/Test_Forecast_with_CI.png)
+
+# Documentation Practices
+
+PEP 8 – Style Guide for Python Code
+
+Modular code with intuitive function names for easy understanding
+
+Inline comments and Markdown provided for all notebooks
 
 # License
 
