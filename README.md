@@ -242,30 +242,33 @@ Test Forecast with CI: Created a plot with Confidence Intervals for the predicti
 ![image](./Output/Test_Forecast_with_CI.png)
 
 
-
+Mortality Rates for Respiratory Conditions between Males and Females
 
 ![image](./Output/extension1_plot.png)
 
+Correlation Test for Mortality Rates of females due Respiratory Conditions and Smoke Estimate
 
 ![image](./Output/extension1_test.png)
 
+Mortality Rates for different ethnicities for Cardiovascular Diseases
 
 ![image](./Output/extension2_plot1.png)
 
+Life Expectancy for different ethnicities for Cardiovascular Diseases
 
 ![image](./Output/extension2_plot2.png)
 
+ANOVA results 
 
 ![image](./Output/extension2_test.png)
 
+Mortality Rate for Road Accidents of different Age Groups over the years
 
 ![image](./Output/extension3_plot.png)
 
+Correlation results for Road Accident and Smoke Estimate
 
 ![image](./Output/extension3_test.png)
-
-
-![image](./Output/extension1_test.png)
 
 
 
