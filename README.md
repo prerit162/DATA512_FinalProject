@@ -21,7 +21,7 @@ The second phase of the project is the extension plan which focuses on the  impa
 
 The analysis would revolve around answering the following questions around the impact of smoke fires on residents in Derby, Kansas - 
 
-# Mortality Rates  for Respiratory Diseases, Cardiovascular Diseases and Road Accidents  
+### Mortality Rates  for Respiratory Diseases, Cardiovascular Diseases and Road Accidents  
 
 ●	Possible correlations between increase in smoke fires and mortality rates because of the diseases
 
@@ -29,7 +29,7 @@ The analysis would revolve around answering the following questions around the i
 
 ●	Observe trends in road accidents at the time of smoke fires due to low visibility.
 
-# Demographic Disparity 
+### Demographic Disparity 
 
 ●	Identifying age groups or ethnicities most vulnerable or impacted by health conditions. 
 
