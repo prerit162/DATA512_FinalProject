@@ -241,6 +241,34 @@ Test Forecast with CI: Created a plot with Confidence Intervals for the predicti
 
 ![image](./Output/Test_Forecast_with_CI.png)
 
+
+
+
+![image](./Output/extension1_plot.png)
+
+
+![image](./Output/extension1_test.png)
+
+
+![image](./Output/extension2_plot1.png)
+
+
+![image](./Output/extension2_plot2.png)
+
+
+![image](./Output/extension2_test.png)
+
+
+![image](./Output/extension3_plot.png)
+
+
+![image](./Output/extension3_test.png)
+
+
+![image](./Output/extension1_test.png)
+
+
+
 # Documentation Practices
 
 PEP 8 – Style Guide for Python Code
