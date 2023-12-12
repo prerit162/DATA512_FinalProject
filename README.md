@@ -76,10 +76,12 @@ The results provide insights into how smoke fires affect various aspects, includ
 &nbsp;&nbsp;&nbsp;├── aqi_particulate.csv<br>
 ├── <b>Code/</b><br>
 &nbsp;&nbsp;&nbsp;├── Data_Extraction_Analysis.ipynb<br>
+&nbsp;&nbsp;&nbsp;├── Project_Extension.ipynb<br>
 &nbsp;&nbsp;&nbsp;├── Reader.py<br>
 &nbsp;&nbsp;&nbsp;├── Wildfire_short_sample.json<br>
 &nbsp;&nbsp;&nbsp;├── __init__.py<br>
 &nbsp;&nbsp;&nbsp;├── test_geocalc.py<br>
+&nbsp;&nbsp;&nbsp;├── extract_subset.py<br>
 ├── <b>Output/</b><br>
 &nbsp;&nbsp;&nbsp;├── Visualization_1.png<br>
 &nbsp;&nbsp;&nbsp;├── Visualization_2.png<br>
