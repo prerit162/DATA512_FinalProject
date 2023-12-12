@@ -89,6 +89,13 @@ The results provide insights into how smoke fires affect various aspects, includ
 &nbsp;&nbsp;&nbsp;├── Validation_Forecast.png<br>
 &nbsp;&nbsp;&nbsp;├── Test_Forecast.png<br>
 &nbsp;&nbsp;&nbsp;├── Test_Forecast_with_CI.png<br>
+&nbsp;&nbsp;&nbsp;├── extension1_plot.png<br>
+&nbsp;&nbsp;&nbsp;├── extension1_test.png<br>
+&nbsp;&nbsp;&nbsp;├── extension2_plot1.png<br>
+&nbsp;&nbsp;&nbsp;├── extension2_plot2.png<br>
+&nbsp;&nbsp;&nbsp;├── extension2_test.png<br>
+&nbsp;&nbsp;&nbsp;├── extension3_plot.png<br>
+&nbsp;&nbsp;&nbsp;├── extension3_test.png<br>
 
 # Prerequisites
 Before using this code, ensure you have the following prerequisites installed:
