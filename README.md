@@ -2,16 +2,60 @@
 
 # Impact Analysis of Smoke Fires on Public Health and Safety
 
-# AIM
+
+# Motivation 
+
+The number of wildfires has been on the rise over the last few years and can have a huge impact on several aspects of a city. The number of fires have increased over the last few years and have a significant impact on the environment. Urban and rural landscapes are impacted in many ways. Urban landscapes suffer a more significant impact due to the density of people living in the city which affects both the quality of human lives and overall infrastructure. Beyond the impact of fires on an immediate level, they also have long term consequences on healthcare, environment, and economic aspects of a city. People living in the city may see an increase in respiratory issues, cardiovascular issues, and road accidents due to low visibility. Apart from their effect on health, fires also have repercussions on the economic conditions through property damage, disruption of businesses, agricultural losses, and tourism. The city council needs to have a proper plan to address all these concerns and make people aware of the measures that they have taken to overcome these losses.  There is also a need to see if a certain group of people are more vulnerable to this and introduce new measures to protect these individuals.
+
+# Aim and Research Questions 
 
 The goal of this submission of the project was to analyze the impact of wildfire on a specific city in the US. The end goal is to be able to inform policy makers, city managers, city councils, or other civic institutions, to make an informed plan for how they could or whether they should make plans to mitigate future impacts from wildfires.
 
-# Key Takeaways 
+The project was divided into two halves where the first part of the project was focused on the smoke estimate calculation for Derby, Kansas and the second part was extending that analysis to see the impact of fires on Public Health and Safety. In the first part of the project, various techniques were explored such as Linear Regression, ARMA (Autoregressive Moving Average), ARIMA (Autoregressive Integrated Moving Average) models but ended up using SARIMA(Seasonal Autoregressive Integrated Moving Average (SARIMA)) for my forecasting model. This is because SARIMA explicitly incorporates seasonality into the model, which makes it a great fit for the time series data available to us. This helps in utilizing the recurring patterns at regular intervals to make more robust predictions. Also, SARIMA has a more flexible framework which can tune autoregressive and moving average components which allows the model to capture nonlinear patterns present in time series data.
 
-1.) Derby being one of the largest suburbs in Wichita is known for its green patches which is reflected by the less number of fire cases being reported in the proximity of Derby.  However, the cases increase significantly as we move away which might be indicative of commercialization and industrialization.
+The second phase of the project is the extension plan which focuses on the  impact of these fires on the health and safety of its residents mainly on the following aspects :
 
-2.) There has been a significant rise in the acres of land being burned all over the world over the last few years, due to a number of factors such as climate change, industrialization, commercialization etc. The data which was filtered for Derby also reflected a surge in acres of land burned in recent years. The area of land being burned had been on a constant rise and it peaked in 2011 in Derby. However, there is a noticeable shift post-2011 where it can be seen that the acres of land being burned has started to decrease though not consistently. This would be indicative of the effective measures that would have been enforced to mitigate wildfires once this reached a breaking point.
+●	Respiratory Health Issues : Exposure to wildfire smoke can exacerbate respiratory conditions such as asthma, bronchitis, and chronic obstructive pulmonary disease (COPD)
+●	Cardiovascular Effects : Fine particles in smoke can contribute to cardiovascular problems, potentially increasing the risk of heart attacks and other cardiovascular issues.
+●	Visibility Reduction : Thick smoke can reduce visibility, posing hazards for drivers and increasing the risk of accidents on roads.
 
+The analysis would revolve around answering the following questions around the impact of smoke fires on residents in Derby, Kansas - 
+# Mortality Rates  for Respiratory Diseases, Cardiovascular Diseases and Road Accidents  
+●	Possible correlations between increase in smoke fires and mortality rates because of the diseases
+●	Which respiratory diseases are shown to have a significant increase  in mortality rates?
+●	Observe trends in road accidents at the time of smoke fires due to low visibility.
+# Demographic Disparity 
+●	Identifying age groups or ethnicities most vulnerable or impacted by health conditions. 
+●	Observe change in life expectancy across different demographics.
+
+# Recommendations
+
+The results provide insights into how smoke fires affect various aspects, including respiratory conditions, cardiovascular diseases, and reduced visibility leading to road accidents.
+●	The county should implement necessary measures to address the rising mortality rates related to respiratory conditions among females especially for  Chronic obstructive pulmonary disease and Chronic respiratory diseases. This can be done through the following steps  : 
+
+○	Launch targeted health education campaigns to raise awareness about the risks of respiratory conditions, emphasizing the importance of early detection, symptom recognition, and seeking medical attention.
+
+○	Implement regular screening programs, especially for vulnerable populations, to detect respiratory conditions at an early stage. Early detection allows for timely intervention and better management of chronic diseases.
+
+○	Improve access to healthcare services, ensuring that females have easy access to medical facilities, clinics, and specialists for respiratory health check-ups and treatment.
+
+●	 Special attention is required for the AIAN ethnicity group where there has been an increase in mortality rates for respiratory and cardiovascular diseases. Life expectancy has also shown a visible decline for AIAN over the last few years.
+
+○	Understand if the AIAN community is more involved in jobs that are more prone to health issues so that appropriate steps and strategies can be launched to address occupational health disparities.
+
+○	Implement robust programs that can reform and enforce regulations in industries where the AIAN community is employed. Workers need to be educated on potential health hazards and provided with appropriate protective equipment.
+
+○	Improve access to quality education by investing in schools and educational resources within or near AIAN communities. Enhance cultural competence in educational curricula to make them more inclusive.
+
+○	Work with community leaders to act as liaisons between healthcare providers and community members to empower them with healthcare services, including preventive care, screenings, and chronic disease management which can foster trust and cultural understanding.
+
+●	It is advisable to adjust driving guidelines, particularly during periods of increased smoke fires, to ensure road safety.
+
+○	Launch public awareness campaigns to educate people about the risks associated with reduced visibility due to smoke fires. 
+
+○	Utilize emergency alert systems to notify drivers of hazardous conditions caused by smoke fires.
+
+○	Introduce variable speed limits that can be adjusted dynamically based on current visibility conditions.
 
 # Folder Hierarchy
 
