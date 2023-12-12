@@ -99,10 +99,15 @@ The results provide insights into how smoke fires affect various aspects, includ
 
 # Description
 Data : This folder contains input data files and intermediate data files created. 
+
 Output : This folder contains several visualizations from the first and second phase of the project like Smoke Estimates and AQI data aggregated over years and mortality rates for different diseases respectively
+
 Report: This folder contains reports and presentations from the different phases of the project
+
 Code : This folder contains the two main code files in the form of Jupyter notebook and supporting code which was used for data acquisition.
+
 LICENSE : A file that contains an MIT LICENSE
+
 README.md : A file that contains important information about the project and steps that makes the analysis reproducible
 
 # Prerequisites
